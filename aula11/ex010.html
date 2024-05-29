@@ -24,6 +24,11 @@
         div#res{
             padding-top: 20px;
         }
+
+        p{
+            color: red;
+            font-weight: bolder;
+        }
     </style>
 </head>
 <body>
@@ -39,7 +44,8 @@
             var txtv = window.document.getElementById('txtvel')
             var res = window.document.querySelector('div#res')
             var  vel = Number(txtv.value)
-            res.innerHTML = `Sua velocidade atual é de ${vel}Km/h.`
+            res.innerHTML = `Sua velocidade atual é de <strong>${vel}Km/h</strong>.`
+            res.innerHTML += `<p>Dirija sempre com cinto de segurança!</p>`
         }
     </script>
 </body>
