@@ -2,15 +2,17 @@ function carregar(){
     var msg = window.document.getElementById('msg')
     var img = window.document.getElementById('imagem')
     var data = new Date()
-    //var hora = data.getHours()
-    var hora = 20
+    var hora = data.getHours()
     msg.innerHTML = `Agora são ${hora} horas.`
 
     if(hora >= 0 && hora < 12){
-        img.scr = 'manha.png'
+        img.src = 'manha.png'
+        document.body.style.background = '#BFA211'
     } else if(hora >= 12 && hora <= 18){
-        img.scr = 'tarde.png'
+        img.src = 'tarde.png'
+        document.body.style.background = '#732A10'
     } else{
-        img.scr = 'noite.png'
+        img.src = 'noite.png'
+        document.body.style.background = '#011640'
     }
 }
