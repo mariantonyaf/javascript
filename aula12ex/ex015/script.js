@@ -9,5 +9,14 @@ function verificar(){
     } else{
         var fsex = document.getElementsByName('radsex')
         var idade = ano - Number(fano.value)
+        var genero = ''
+
+        if(fsex[0].checked){
+            genero = 'Homem'
+        } else if(fsex[1].checked){
+            genero = 'Mulher'
+        }
+        res.style.textAlign = 'center'
+        res.innerHTML = `Detectamos ${genero} com ${idade} anos.`
     }
 }
