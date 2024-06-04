@@ -1,6 +1,6 @@
 let num = [5,9,7,2]
 
-//num[5] = 6
+//num[4] = 6
 //num.push(7)
 //num.length
 //num.sort()
