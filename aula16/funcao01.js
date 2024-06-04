@@ -5,3 +5,6 @@ function parimpar(n){
         return 'Ímpar!'
     }
 }
+
+let res = parimpar(5)
+console.log(res)
