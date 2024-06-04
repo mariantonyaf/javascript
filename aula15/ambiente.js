@@ -1,3 +1,10 @@
-let num = [1, 2, 3, 4, 5]
+let num = [5,9,7,2]
+
+//num[5] = 6
+//num.push(7)
+//num.length
+//num.sort()
 
 console.log(num)
+console.log(`O primeiro valor do vetor é ${num[0]}`)
+console.log(`O vetor tem ${num.length} posições.`)
