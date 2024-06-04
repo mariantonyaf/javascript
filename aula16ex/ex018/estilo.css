@@ -19,14 +19,8 @@ section{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
 
-section > div > p > input#botao{
-    background-color: lightskyblue;
-    font-size: 18px;
-}
-
-section > div > p > input#botao:hover{
-    background-color: rgb(84, 186, 249);
-    cursor: pointer;
+select#flista{
+    width: 150px;
 }
 
 footer{
